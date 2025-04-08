@@ -1,0 +1,46 @@
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 506px;
+    margin: 0 auto;
+    padding: 10px;
+   }
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container{
+    padding-top: 10%;
+  }
+
+  #second-div, h2{
+    margin-top: 4%;
+  }
+
+  button {
+    font-size: 1rem;
+    align-items: center;
+    height: 48px;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    padding: 0 1.2rem;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(143, 142, 142, 0.15) !important;
+    background: blue;
+    width: 506px;
+  }
+  
+  button:hover {
+    background: #2b2a2a;
+  }
